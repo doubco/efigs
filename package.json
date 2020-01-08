@@ -1,0 +1,33 @@
+{
+  "name": "efigs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "preferGlobal": true,
+  "license": "MIT",
+  "bin": {
+    "efigs": "./index.js"
+  },
+  "scripts": {
+    "generate": "node index.js",
+    "generate-for-web": "PLATFORM=WEB node index.js",
+    "generate-raw": "RAW=1 node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "tinycolor2": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doubco/efigs"
+  },
+  "keywords": [
+    "figma",
+    "json",
+    "styles",
+    "export"
+  ],
+  "author": {
+    "name": "Doub.co",
+    "email": "hi@doub.co"
+  }
+}
